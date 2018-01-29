@@ -10,8 +10,8 @@ color: #222222;
 }
 .navbar-nav>li>a {
 	color: #fff !important;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	letter-spacing: 1.5px;
 }
 .navbar-header {
@@ -22,7 +22,7 @@ color: #222222;
 	text-align: center;
 }
 .navbar {
-	font-family: 'Arimo', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	height: 100px;
 	font-weight: 300;
 	font-size: 15px;
@@ -38,7 +38,7 @@ color: #222222;
 	margin-bottom: 20px;
 }
 .navbar-collapse {
-	font-family: 'Arimo', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	background-color: #222222;
 	border: #222222;
 	color: #222222;
@@ -49,12 +49,13 @@ color: #222222;
 	text-rendering: optimizelegibility;
 }
 .navbar-brand {
-	margin-top: 26px;
+	margin-top: 17px;
 	margin-left: 15px;
 }
 .navbar2 {
 	background-color: #222222;
 }
+
 /* unvisited link */
 
 a:link {
@@ -286,7 +287,7 @@ p {
 	padding-bottom: 30px;
 }
 .introheader2 {
-	color: 222222;
+	color: #222222;
 	text-align: right;
 	padding-top: 50px;
 	padding: 20px;
@@ -558,9 +559,7 @@ p {
 }
 /* === CONTACT === */
 
-.form {
-	padding: 20px;
-}
+
 .content {
 	text-align: center;
 	padding: 50px;
@@ -573,7 +572,7 @@ p {
 	padding-top: 20px;
 	text-align: center;
 }
-main-contact-content {
+.main-contact-content {
 	text-align: center;
 	font-size: 15px;
 	padding: 20px;
@@ -614,95 +613,51 @@ main-contact-content {
 	padding-bottom: 50px;
 	padding-top: 20px;
 }
-/* ==== FORMS ==== */
 
-label {
-	display: block;
-	font-weight: bold;
-}
-input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea {
-	color: #666;
-	border: 1px solid #ccc;
-	border-radius: 3px;
-	display: block;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	width: 100%;
-	padding: 6px 12px;
-}
-input[type="submit"], button[type="submit"] {
-	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-right: 50px;
-	padding-left: 50px;
-	color: #fff;
-	background-color: #ab2e58;
-	border: transparent;
-	border-radius: 5px;
-}
-input[type="submit"]:hover, button[type="submit"]:hover {
-	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-right: 50px;
-	padding-left: 50px;
-	color: #fff;
-	background-color: #ab2e58;
-	border: transparent;
-	border-radius: 5px;
-}
-form.search-form .form-group {
-	margin: 0;
-}
-form.search-form .input-group {
-	width: 100%;
-}
-form.search-form .input-group input[type="search"], form.search-form .input-group input[type="text"] {
-	width: 70%;
-}
-form.search-form .input-group input[type="submit"] {
-	width: 30%;
-	border-top-left-radius: 0;
-	border-bottom-left-radius: 0;
-	float: right;
-}
-form textarea {
-	width: 100%;
-	border: 1px solid #ccc;
-	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-}
 /* ==== FOOTER ==== */
 
 .signup-section {
-	padding: 100px 0px 100px 0px;
+	padding: 100px 0px 0px 0px;
 	text-align: center;
-	background-color: #2A2A2A;
+	background-color: #222222;
 	color: white;
 }
 
 .signup-text {
-	padding: 50px;
+	padding: 50px 0px 20px 0px;
+}
+
+.submit-form {
+	padding: 50px 20% 50px 20%;
 }
 
 #email-input {
 	background-color: transparent;
-	text-decoration-color: none;
 	color: white;
-	border-width: 2px;
+	padding: 20px 50px 20px 50px;
+	text-align: center;
+	width:100%;
+	margin-bottom: 20px;
+	border-width: 3.5px;
+	box-shadow: none;
+	border-style: solid;
+}
+
+.signup-submit {
+	background-color: white;
+	color: #2A2A2A;
 	border-color: white;
 	padding: 20px 50px 20px 50px;
 	text-align: center;
 	width:100%;
+	font-size: 18px;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 	text-decoration-color: none;
 	color: white;
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 300;
 	opacity: 0.7;
   }
@@ -730,6 +685,47 @@ form textarea {
 	font-weight: 300;
 	opacity: 0.7;
   }
+
+.footer-section {
+	overflow: hidden;
+	background-color: #222222;
+	color: white;
+	padding-top: 50px;
+}
+
+.footer-title {
+	padding-bottom: 20px;
+}
+
+.footer-links {
+	list-style: none;
+	letter-spacing: 0.1em;
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0px 0px 0px 40%;
+	padding-top: 0px;
+	font-size: 16px;
+}
+
+.footer-link {
+	padding: 10px;
+}
+
+.footer-about-text {
+	margin: 0px 20% 0px 0%;
+}
+
+.footer-legal-links {
+	text-align: center;
+	letter-spacing: 0.1em;
+	font-family: 'Ubuntu', sans-serif;
+	padding-top: 50px;
+	font-size: 16px;
+}
+
+.footer-copyright {
+	text-align: center;
+	padding: 20px 0px 50px 0px;
+}
 
 
 /* ==== MEDIA ==== */
